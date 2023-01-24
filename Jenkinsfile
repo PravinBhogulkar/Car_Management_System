@@ -8,8 +8,8 @@ pipeline{
   stages{
     stage('build'){
       steps{
-        echo 'Hello World'
-        sh 'docker version'
+//         echo 'Hello World'
+//         sh 'docker version'
         sh 'git pull origin main'
         sh 'docker build .'
         sh 'docker run -p 4200:4200 '
