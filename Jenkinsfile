@@ -1,9 +1,10 @@
 pipeline{
-  agent {
-    docker {
-      image 'pravinbhogulkar/codewithpravinbhogulkar:todo'
-    }
-  }
+//   agent {
+//     docker {
+//       image 'pravinbhogulkar/codewithpravinbhogulkar:todo'
+//     }
+//   }
+  agent any
   stages{
     stage('build'){
       steps{
