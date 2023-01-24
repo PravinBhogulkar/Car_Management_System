@@ -1,7 +1,7 @@
 pipeline{
   agent {
     docker {
-      image pravinbhogulkar/codewithpravinbhogulkar:todo
+      image 'pravinbhogulkar/codewithpravinbhogulkar:todo'
     }
   }
   stages{
