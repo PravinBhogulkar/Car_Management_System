@@ -11,7 +11,7 @@ pipeline{
         echo 'Hello World'
 //         sh 'docker version'
         echo 'Git Pull'
-        sh 'git clone https://github.com/PravinBhogulkar/Car_Management_System.git'
+//         sh 'git clone https://github.com/PravinBhogulkar/Car_Management_System.git'
  echo 'Docker Build'
         sh 'docker build .'
         echo 'Docker Run'
