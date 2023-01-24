@@ -13,9 +13,9 @@ pipeline{
         echo 'Git Pull'
 //         sh 'git clone https://github.com/PravinBhogulkar/Car_Management_System.git'
  echo 'Docker Build'
-        sh 'docker build .'
+        bat 'docker build .'
         echo 'Docker Run'
-        sh 'docker run -p 4200:4200 '
+        bat 'docker run -p 4200:4200 '
       }
     }
   }
