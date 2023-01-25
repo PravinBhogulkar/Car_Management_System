@@ -13,7 +13,7 @@ pipeline{
         echo 'Git Pull'
 //         sh 'git clone https://github.com/PravinBhogulkar/Car_Management_System.git'
         echo 'Checking Directory'
-        bat 'pwd'
+        bat 'dir'
         echo 'Docker Build'
         bat 'docker build .'
         echo 'Docker Run'
