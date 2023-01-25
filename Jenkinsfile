@@ -14,6 +14,8 @@ pipeline{
 //         sh 'git clone https://github.com/PravinBhogulkar/Car_Management_System.git'
         echo 'Checking Directory'
         bat 'dir'
+        echo 'Changing Directory'
+        bat 'cd todo'
         echo 'Docker Build'
         bat 'docker build .'
         echo 'Docker Run'
