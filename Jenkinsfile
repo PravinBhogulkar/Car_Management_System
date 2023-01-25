@@ -21,6 +21,8 @@ pipeline{
         bat 'docker build .'
         echo 'Npm version'
         bat 'npm version'
+        echo 'Angular Installation'
+        bat 'npm install -g @angular/cli'
         echo 'Angular version'
         bat 'ng version'
         echo 'Docker Run'
