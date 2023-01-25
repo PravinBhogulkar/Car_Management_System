@@ -20,7 +20,7 @@ pipeline{
         echo 'Docker Build'
         bat 'docker build .'
         echo 'Docker Run'
-        bat 'docker run -p 4200:4200 pravinbhogulkar/codewithpravinbhogulkar:todo '
+        bat 'docker run -p 4200 pravinbhogulkar/codewithpravinbhogulkar:todo'
       }
     }
   }
