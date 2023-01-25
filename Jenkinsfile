@@ -9,7 +9,7 @@ pipeline{
     stage('build'){
       steps{
         echo 'Hello World'
-        docker version
+        bat 'docker version'
         echo 'Git Pull'
 //         sh 'git clone https://github.com/PravinBhogulkar/Car_Management_System.git'
         echo 'Checking Directory'
