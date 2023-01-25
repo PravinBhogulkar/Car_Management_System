@@ -22,7 +22,7 @@ pipeline{
         echo 'Npm version'
         bat 'npm version'
         echo 'Angular Installation'
-        bat 'npm install -g @angular/cli'
+        bat 'npm install -g @angular/cli@15.1.2'
         echo 'Angular version'
         bat 'ng version'
         echo 'Docker Run'
