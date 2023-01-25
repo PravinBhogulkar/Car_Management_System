@@ -19,6 +19,10 @@ pipeline{
         bat 'dir'
         echo 'Docker Build'
         bat 'docker build .'
+        echo 'Npm version'
+        bat 'npm version'
+        echo 'Angular version'
+        bat 'ng version'
         echo 'Docker Run'
         bat 'docker run -p 4200 pravinbhogulkar/codewithpravinbhogulkar:todo'
       }
