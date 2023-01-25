@@ -15,7 +15,7 @@ pipeline{
         echo 'Checking Directory'
         bat 'dir'
         echo 'Installing Dependency'
-        bat 'npm install'
+//         bat 'npm install'
         bat 'dir'
         echo 'Docker Build'
         bat 'docker build .'
