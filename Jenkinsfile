@@ -16,6 +16,7 @@ pipeline{
         bat 'dir'
         echo 'Changing Directory'
         bat 'cd todo'
+        bat 'dir'
         echo 'Docker Build'
         bat 'docker build .'
         echo 'Docker Run'
